@@ -1,0 +1,3 @@
+[th:fragment="naturalListItem"]lol
+[(${item})][# th:if="${itemStat.index} < ${itemStat.size}-2"], [/][# th:if="${itemStat.index} == ${itemStat.size}-2"] and [/]
+[/]

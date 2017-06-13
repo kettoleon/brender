@@ -1,0 +1,1 @@
+Hi, your new products are: <#list communicationBody.triggeringProducts as prod>${prod.name} (${prod.price?string["#,##0.00;; groupingSeparator='.' decimalSeparator=','"]}€)<#if prod?index < communicationBody.triggeringProducts?size-2>, </#if><#if prod?index == communicationBody.triggeringProducts?size-2> and </#if></#list>.

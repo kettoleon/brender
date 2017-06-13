@@ -1,0 +1,1 @@
+Hi, your new products are: [# th:each="prod : ${communicationBody.triggeringProducts}"][(${prod.name})] ([(${#numbers.formatDecimal(prod.price,1,'POINT',2,'COMMA')})]€)[# th:if="${prodStat.index} < ${prodStat.size}-2"], [/][# th:if="${prodStat.index} == ${prodStat.size}-2"] and [/][/].

@@ -1,0 +1,1 @@
+So, you are living at [# th:object="${communicationBody.address}"]Town: [(*{town})], Street: [(*{street})][/]

@@ -1,0 +1,1 @@
+Hi, your new products are: product1 (4,50€), product2 (0,51€) and product3 (3.244,55€).

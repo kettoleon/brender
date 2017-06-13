@@ -1,0 +1,1 @@
+So, you are living at Town: ${communicationBody.address.town}, Street: ${communicationBody.address.street}
